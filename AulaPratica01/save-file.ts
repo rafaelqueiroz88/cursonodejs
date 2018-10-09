@@ -1,3 +1,5 @@
+// Compilando o .ts para .js
+
 const fs = require('fs')
 
 const argv = require('yargs')
