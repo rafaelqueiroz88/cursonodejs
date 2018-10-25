@@ -1,4 +1,5 @@
-const fatorial  = require ('./fatorial')
+// const fatorial  = require ('./fatorial') // padrão node
+import {fatorial} from './fatorial' // padrão ECMAScript 2015
 
 console.log('n-fatorial')
 

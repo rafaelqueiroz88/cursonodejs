@@ -1,4 +1,0 @@
-Comandos do typescript (tsc)
-
-tsc --init        instancia um typescript
-tsc               compila o typescript

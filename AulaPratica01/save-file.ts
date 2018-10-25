@@ -1,8 +1,9 @@
 // Compilando o .ts para .js
+// const fs = require('fs') // padrão node
+import * as fs from 'fs' // padrão ECMAScript 2015
+import * as yargs from 'yargs'
 
-const fs = require('fs')
-
-const argv = require('yargs')
+const argv = yargs
     .alias('f', 'filename')
     .alias('c', 'content')
     .demandOption('filename')
