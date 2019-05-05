@@ -2,6 +2,7 @@
 // const fatorial = require('./fatorial')
 
 import {fatorial} from './fatorial'
+import * as yargs from 'yargs'
 
 console.log(' ============= n-fatorial ============ ')
 
