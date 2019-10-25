@@ -1,2 +1,4 @@
-Voltando/node_modules
-meat-api/node_modules
+/dist
+/node_modules
+/.idea
+.idea
